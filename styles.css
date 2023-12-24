@@ -1,0 +1,126 @@
+@font-face {
+    font-family: rockFont ;
+    src: url('./fonts/rock/SnackerComic_PerosnalUseOnly.ttf');
+}
+@font-face {
+    font-family: paperFont ;
+    src: url('./fonts/paper/planetbe.ttf');
+}
+@font-face {
+    font-family: scissorsFont ;
+    src: url('./fonts/scissors/Miss\ Smarty\ Pants.ttf');
+}
+@font-face {
+    font-family: bodyFont ;
+    src: url('./fonts/game/orange\ juice\ 2.0.ttf');
+}
+body{
+    background-color: rgba(0, 128, 0, 0.397);
+}
+.body-div{
+    font-family: 'bodyFont';
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    max-width: 80vw;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: white;
+}
+.game{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+img{
+    height: 200px;
+    padding: 30px;
+}
+.rock-png img{
+    background-color: rgba(128, 128, 128, 0.551);
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+.paper-png img{
+    background-color: rgba(208, 190, 190, 0.551);
+    border-radius: 50%;
+    margin: 0 10px 0;
+}
+.scissors-png img{
+    background-color: rgba(199, 12, 12, 0.666);
+    
+    border-radius: 50%;
+    margin-left: 10px;
+}  
+
+.rock-png img:hover{
+    background-color: rgba(128, 128, 128, 0.332);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.paper-png img:hover{
+    background-color: rgba(208, 190, 190, 0.315);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.scissors-png img:hover{
+    background-color: rgba(214, 26, 26, 0.404);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} 
+h1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rock-h1{
+    font-family: 'rockFont';
+    font-size: 5rem;
+    padding: 30px;
+}
+.paper-h1{
+    font-family: 'paerFont';
+    font-size: 5rem;
+    padding: 10px;
+}
+.scissors-h1{
+    font-family: 'scissorsFont';
+    font-size: 5rem;
+    padding: 30px;
+}
+button{
+    border: none;
+    background-color: white;
+}
+.scores{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.8rem;
+}
+.user-score{
+    color: green;
+}
+h3{
+
+    font-size: 1.8rem;
+    text-align: center;
+}
+h4{
+    color: darkcyan;
+    text-align: center;
+    font-size: 2rem;
+
+}
+h4:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.owner{
+    font-family: monospace;
+    text-align: center;
+    margin-top: 50px;
+}
+
+a{
+    color: green;
+}
